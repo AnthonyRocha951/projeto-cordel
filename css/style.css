@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkgray;
+  font-family: var(--fonte1);
+}
+
+:root {
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: "Passion One", cursive;
+  --fonte3: "Sriracha", cursive;
+}
+
+header {  /* text-transform: uppercase; = pra deixar todas as letras em maiusculo */
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-weight: normal;
+  font-family: var(--fonte2);
+  padding-top: 50px;
+  font-variant: small-caps; /* deixa todas as letras em maiusculo, com a primeira letra maior */
+  font-size: 10vw;
+}
+
+header p {
+  padding-bottom: 50px;
+  font-family: var(--fonte1);
+  font-size: 15px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+section {
+  font-size: 2em;
+  font-family: var(--fonte3);
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em; /* espaço entre as frases */
+  padding-left: 50px;
+}
+
+.normal {
+  background-color: white;
+}
+
+.imagem {
+  background-color: rgb(136, 119, 119);
+  background-image: url('../imagens/background001.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.imagem p {
+  width: 400px;
+  padding: 15px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0));
+}
+
+.imagem2 {
+  background-color: rgb(136, 119, 119);
+  background-image: url('../imagens/background002.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.imagem2 p {
+  width: 400px;
+  padding: 15px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0));
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
