@@ -137,10 +137,17 @@ footer a:hover {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0));
   }
 
+  .imagem2 p {
+    width: 200px;
+    padding: 15px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0));
+  }
+
   .imagem {
     background-color: rgb(136, 119, 119);
     background-image: url('../imagens/background001.jpg');
     background-repeat: no-repeat;
+    background-position: center right;
     background-size: cover;
     background-attachment: fixed;
     color: white;
