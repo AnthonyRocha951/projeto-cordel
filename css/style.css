@@ -147,7 +147,7 @@ footer a:hover {
     background-color: rgb(136, 119, 119);
     background-image: url('../imagens/background001.jpg');
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     color: white;
