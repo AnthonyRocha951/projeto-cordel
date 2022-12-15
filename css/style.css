@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 * {
   margin: 0;
@@ -14,6 +15,7 @@ body {
   --fonte1: Verdana, Geneva, Tahoma, sans-serif;
   --fonte2: "Passion One", cursive;
   --fonte3: "Sriracha", cursive;
+  --fonte4: 'Fredoka One', cursive;
 }
 
 header {  /* text-transform: uppercase; = pra deixar todas as letras em maiusculo */
@@ -49,11 +51,15 @@ header a:hover {
 
 section {
   font-size: 2em;
-  font-family: var(--fonte3);
+  font-family: var(--fonte4);
   padding-top: 10vh;
   padding-bottom: 10vh;
   line-height: 2em; /* espaço entre as frases */
-  padding-left: 50px;
+  padding-left: 100px;
+}
+
+section > p {  /* espaco entre os paragrafos */
+  padding-bottom: 1em;
 }
 
 .normal {
@@ -62,7 +68,6 @@ section {
 
 .imagem {
   background-color: rgb(136, 119, 119);
-  background-image: url('../imagens/background001.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,26 +81,19 @@ section {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0));
 }
 
-.imagem2 {
-  background-color: rgb(136, 119, 119);
-  background-image: url('../imagens/background002.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  color: white;
+#img-1 {
+  background-image: url('../imagens/background001.jpg');
 }
 
-.imagem2 p {
-  width: 400px;
-  padding: 15px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0));
+#img-2 {
+  background-image: url('../imagens/background002.jpg');
 }
 
 footer {
   background-color: black;
   padding: 10px;
   color: white;
+  font-family: var(--fonte3);
   text-align: center;
 }
 
@@ -124,33 +122,20 @@ footer a:hover {
 
   section {
     font-size: 1em;
-    font-family: var(--fonte3);
+    font-family: var(--fonte4);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em; /* espaço entre as frases */
     padding-left: 50px;
   }
 
-  .imagem p {
-    width: 200px;
-    padding: 15px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0));
-  }
-
-  .imagem2 p {
-    width: 200px;
-    padding: 15px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0));
-  }
-
-  .imagem {
-    background-color: rgb(136, 119, 119);
-    background-image: url('../imagens/background001.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+  footer {
+    background-color: black;
+    font-size: 13px;
+    padding: 10px;
+    font-family: var(--fonte3);
     color: white;
+    text-align: center;
   }
 
 }
