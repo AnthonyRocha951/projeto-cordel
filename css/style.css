@@ -129,6 +129,12 @@ footer a:hover {
     padding-left: 50px;
   }
 
+  .imagem p {
+    width: 220px;
+    padding: 15px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0));
+  }
+
   footer {
     background-color: black;
     font-size: 13px;
